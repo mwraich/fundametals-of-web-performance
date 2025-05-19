@@ -75,27 +75,24 @@
 					<source
 						media="(max-width: 720px)"
 						srcset="
-							/hero-mobile.png?width=360   360w,
-							/hero-mobile.png?width=720   720w,
-							/hero-mobile.png?width=1440 1440w
+              /assets/img/webp/hero-mobile-360.webp   360w,
+							/assets/img/webp/hero-mobile-3720.webp   720w,
+							/assets/img/webp/hero-mobile-1400.webp 1440w
 						"
 					/>
 					<source
 						media="(min-width: 721px)"
 						srcset="
-							/hero-desktop.png?width=720   720w,
-							/hero-desktop.png?width=1440 1440w,
-							/hero-desktop.png?width=2800 2800w
-						"
+						/assets/img/webp/hero-desktop-720.webp   720w,
+						/assets/img/webp/hero-desktop-1400.webp 1440w,
+						/assets/img/webp/hero-desktop-2800.webp 2800w"
 					/>
 					<img
-						src="/hero-desktop.png?width=2800"
+						src="/assets/img/webp/hero-desktop-2800.webp"
 						alt="Developer Stickers Online"
 						fetchpriorty="high"
 						height="1200"
 						width="2800"
-						rel="preload"
-						as="image"
 					/>
 				</picture>
 				<!-- NOTE: As of Chrome 129, we can trick it by hiding the LCP element behind a transparent element -->
