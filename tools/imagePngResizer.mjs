@@ -12,7 +12,7 @@ import { mkdir } from 'node:fs/promises';
 import { Jimp } from "jimp";
 import { glob } from "glob";
 
-const filePaths = await glob('public/assets/img/*.png')
+const filePaths = await glob('public/assets/img/webp/*.webp')
 const widths = [360, 720, 1024, 1400, 2800];
 
 console.log("Generating Responsive Images");

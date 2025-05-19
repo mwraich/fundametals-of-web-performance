@@ -15,7 +15,7 @@ import imageminPngquant from 'imagemin-pngquant';
 
 console.log("Optimizing PNG Images");
 
-await imagemin(['public/assets/img/**/*.png'], {
+await imagemin(['public/assets/img/webp/**/*.webp'], {
   destination: 'public/assets/img/min',
   plugins: [
     imageminPngquant({

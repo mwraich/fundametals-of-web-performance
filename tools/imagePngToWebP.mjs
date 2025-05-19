@@ -13,7 +13,7 @@ import imageminWebp from 'imagemin-webp';
 
 console.log("Converting to WebP Images",);
 
-await imagemin(['public/assets/img/min/**/*.png', 'public/assets/img/*.png'], {
+await imagemin(['public/assets/img/webp/min/**/*.png', 'public/assets/img/*.webp'], {
   destination: "public/assets/img/webp",
   plugins: [
     imageminWebp({ quality: 50 })
